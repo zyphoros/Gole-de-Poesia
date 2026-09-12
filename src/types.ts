@@ -3,6 +3,9 @@ export interface Workshop {
   number: number;
   title: string;
   subtitle: string;
+  date: string;
+  time: string;
+  spots: string;
   facilitator: {
     name: string;
     role: string;

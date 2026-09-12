@@ -4,10 +4,13 @@ export const WORKSHOPS_DATA: Workshop[] = [
   {
     id: 'canto-performance',
     number: 1,
-    title: 'Canto e Performance, Onomatopeia',
+    title: 'Canto e Performance Onomatopeia',
     subtitle: 'Voz, ritmo e expressão cênica afro-brasileira',
+    date: '28/09',
+    time: '18h',
+    spots: '20 vagas',
     facilitator: {
-      name: 'Lís Carvalho',
+      name: 'Lis Carvalho',
       role: 'Cantora, Atriz e Flautista',
       photoLocal: '/facilitadores/lis-carvalho.jpg',
       photoDrive: 'https://drive.google.com/uc?export=view&id=1fqvi55CJZdtO4tkeFtirEixRihC7hV9l',
@@ -24,8 +27,11 @@ export const WORKSHOPS_DATA: Workshop[] = [
     number: 2,
     title: 'Leitura Dramática',
     subtitle: 'A encenação do verso e a potência da palavra falada',
+    date: '28/09',
+    time: '20h',
+    spots: '20 vagas',
     facilitator: {
-      name: 'Elmo Ferrer',
+      name: 'Elmo Férrer',
       role: 'Ator, Diretor e Pesquisador Teatral',
       photoLocal: '/facilitadores/elmo-ferrer.jpg',
       photoDrive: 'https://drive.google.com/uc?export=view&id=1ER0UN3CW4sEYBtGP7PijurQTaq57I366',
@@ -42,6 +48,9 @@ export const WORKSHOPS_DATA: Workshop[] = [
     number: 3,
     title: 'Elaboração de Projetos e Captação de Recursos',
     subtitle: 'Gestão cultural prática para artistas e coletivos periféricos',
+    date: '29/09',
+    time: '19h às 22h',
+    spots: '20 vagas',
     facilitator: {
       name: 'Igor Machado',
       role: 'Produtor Cultural e Gestor de Projetos',
@@ -60,6 +69,9 @@ export const WORKSHOPS_DATA: Workshop[] = [
     number: 4,
     title: 'Caminhos para a Escrita na Ficção',
     subtitle: 'Narrativas afro-diaspóricas e a potência da escrita preta',
+    date: '03/10',
+    time: '14h',
+    spots: '20 vagas',
     facilitator: {
       name: 'Cristiane Sobral',
       role: 'Escritora, Poeta, Atriz e Professora',
