@@ -1,0 +1,162 @@
+<svg viewBox="0 0 440 540" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Caminho curvo perfeito para a palavra POESIA -->
+    <path id="curvePoesiaArc" d="M 124 430 Q 220 495 316 430" fill="none"/>
+  </defs>
+
+  <!-- FUNDO MOSTARDA DOURADO QUENTE IDÊNTICO À ARTE DO INSTAGRAM -->
+  <rect width="440" height="540" rx="16" fill="#EFA523"/>
+
+  <!-- MOLDURA DE CARTAZ / LAMBE-LAMBE -->
+  <rect x="8" y="8" width="424" height="524" rx="12" stroke="#4A1030" stroke-width="1.5" stroke-opacity="0.25" fill="none"/>
+  <rect x="14" y="14" width="412" height="512" rx="10" stroke="#4A1030" stroke-width="0.75" stroke-opacity="0.15" fill="none"/>
+
+  <!-- SILHUETA COMPLETA EM VINHO PROFUNDO (#4A1030) -->
+  <g fill="#4A1030">
+    
+    <!-- 
+      1. CORPO, CABELO AFRO, PERFIL DA MULHER E BRAÇO ERGUIDO
+    -->
+    <path d="
+      /* Início na nuca / cabelo afro inferior */
+      M 132 320
+      C 120 300, 105 285, 95 260
+      C 85 240, 80 215, 84 190
+      C 80 175, 78 155, 88 138
+      C 94 126, 105 118, 115 112
+      C 112 98, 122 84, 136 78
+      C 148 72, 162 76, 172 70
+      C 182 64, 198 62, 210 72
+      C 222 68, 238 75, 244 88
+      C 252 86, 264 94, 262 108
+      C 270 114, 274 128, 268 140
+      C 274 148, 270 162, 260 170
+      C 264 180, 258 194, 248 198
+      C 256 208, 250 218, 242 222
+
+      /* Perfil do Rosto: Testa inclinada para trás */
+      C 246 216, 255 210, 264 212
+      /* Nariz erguido */
+      C 270 214, 275 220, 270 226
+      /* Lábio superior */
+      C 266 230, 262 232, 256 232
+      /* Abertura da boca para beber a poesia */
+      C 260 236, 262 242, 258 246
+      /* Lábio inferior e queixo */
+      C 252 250, 245 248, 240 248
+      C 246 256, 248 266, 238 274
+      
+      /* Linha elegante da garganta e do pescoço */
+      C 228 284, 216 290, 204 298
+      C 192 305, 185 320, 178 340
+      C 174 355, 176 370, 180 390
+      
+      /* Ombro e braço erguido segurando a taça */
+      C 195 380, 220 370, 245 350
+      C 272 328, 292 300, 310 262
+      C 322 238, 332 210, 338 185
+      C 342 190, 346 200, 342 215
+      C 334 250, 316 288, 288 326
+      C 260 364, 228 392, 204 410
+
+      /* Base do busto em arco (onde o texto POESIA acompanha) */
+      C 250 418, 290 422, 314 452
+      C 318 460, 305 464, 288 460
+      C 260 452, 232 450, 204 455
+      C 172 462, 148 468, 126 450
+      C 134 426, 142 402, 146 376
+      C 148 350, 142 332, 132 320 Z
+    "/>
+
+    <!-- 
+      2. BRAÇO SUPERIOR E MÃO DELICADA SEGURANDO A TAÇA
+    -->
+    <path d="
+      M 245 350
+      C 272 328, 298 290, 320 248
+      C 332 225, 340 198, 345 178
+      C 348 172, 354 175, 356 182
+      C 350 206, 338 238, 324 266
+      C 304 304, 274 342, 245 365 Z
+    "/>
+
+    <!-- 
+      3. TAÇA / CÁLICE DE POESIA INCLINADA
+    -->
+    /* Bojo da taça */
+    <path d="
+      M 324 150
+      C 314 140, 318 120, 334 114
+      C 352 106, 370 118, 366 136
+      C 362 152, 342 158, 324 150 Z
+    "/>
+    /* Haste e Pé da Taça */
+    <path d="
+      M 354 126
+      L 384 118
+      C 392 116, 398 120, 396 128
+      C 394 135, 386 138, 378 136
+      L 350 142 Z
+    "/>
+    <path d="
+      M 382 121
+      C 388 110, 398 112, 402 120
+      C 404 128, 396 134, 390 132 Z
+    "/>
+
+    <!-- 
+      4. FLUXO CONTÍNUO DE POESIA SAINDO DA TAÇA PARA A BOCA
+    -->
+    <path d="
+      M 328 150
+      C 304 168, 278 198, 252 234
+      C 248 240, 240 236, 243 230
+      C 266 195, 294 165, 320 146 Z
+    "/>
+
+    <!-- Cachos soltos de cabelo afro detalhados -->
+    <circle cx="106" cy="155" r="7" />
+    <circle cx="94" cy="180" r="8" />
+    <circle cx="92" cy="210" r="9" />
+    <circle cx="118" cy="95" r="8" />
+    <circle cx="145" cy="68" r="8" />
+    <circle cx="185" cy="58" r="7" />
+    <circle cx="218" cy="62" r="8" />
+    <circle cx="250" cy="78" r="7" />
+    <circle cx="265" cy="100" r="6" />
+    <circle cx="270" cy="125" r="7" />
+    <circle cx="268" cy="155" r="6" />
+  </g>
+
+  <!-- BRINCO DE ARGOLA DOURADO CARACTERÍSTICO -->
+  <circle cx="182" cy="265" r="26" stroke="#EFA523" stroke-width="6.5" fill="none"/>
+  <!-- Base de fixação do brinco -->
+  <circle cx="170" cy="240" r="3.5" fill="#EFA523"/>
+
+  <!-- DETALHES FACIAIS EM DOURADO (OLHO FECHADO E NARINA) -->
+  <path d="M 206 212 Q 216 206 226 214" stroke="#EFA523" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+  <path d="M 226 224 Q 232 228 228 235" stroke="#EFA523" stroke-width="3" stroke-linecap="round" fill="none"/>
+
+  <!-- CALIGRAFIA CURSIVA DOURADA 'de Gole' NO PESCOÇO/PEITO -->
+  <g transform="translate(208, 350) rotate(74)">
+    <text
+      x="0"
+      y="0"
+      fill="#EFA523"
+      font-family="'Caveat', 'Dancing Script', cursive"
+      font-size="42"
+      font-weight="700"
+      text-anchor="middle"
+      letter-spacing="1"
+    >
+      de Gole
+    </text>
+  </g>
+
+  <!-- TIPOGRAFIA 'POESIA' CURVADA NA BASE DO CARTAZ -->
+  <text fill="#4A1030" font-family="'Bebas Neue', 'Anton', sans-serif" font-size="62" font-weight="900" letter-spacing="6">
+    <textPath href="#curvePoesiaArc" startOffset="50%" text-anchor="middle">
+      POESIA
+    </textPath>
+  </text>
+</svg>

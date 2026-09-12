@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-mustard: #E8A324;
+    --color-mustard-dark: #C98814;
+    --color-mustard-light: #F7BA4A;
+    --color-wine: #4A1030;
+    --color-wine-deep: #340720;
+    --color-wine-light: #641C44;
+    --color-cream: #F5EDE0;
+    --color-cream-soft: #FAF4EA;
+  }
+
+  body {
+    font-family: 'Montserrat', sans-serif;
+  }
+}
+
+/* Custom Typography Utilities */
+.font-display {
+  font-family: 'Bebas Neue', 'Anton', Impact, sans-serif;
+  letter-spacing: 0.04em;
+}
+
+.font-script {
+  font-family: 'Caveat', 'Dancing Script', cursive;
+}
+
+.font-body {
+  font-family: 'Montserrat', 'Poppins', sans-serif;
+}
+
+/* Washi Tape / Colagem Texture Effect */
+.washi-tape {
+  position: relative;
+  background: rgba(245, 237, 224, 0.88);
+  box-shadow: 0 1px 4px rgba(74, 16, 48, 0.15);
+  backdrop-filter: blur(1px);
+}
+
+.washi-tape::before,
+.washi-tape::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background-size: 4px 6px;
+  background-repeat: repeat-y;
+}
+
+.washi-tape::before {
+  left: -2px;
+  background-image: radial-gradient(circle, transparent 2px, rgba(245, 237, 224, 0.88) 2px);
+}
+
+.washi-tape::after {
+  right: -2px;
+  background-image: radial-gradient(circle, transparent 2px, rgba(245, 237, 224, 0.88) 2px);
+}
+
+/* Subtle street poster grain / texture overlay */
+.bg-grain {
+  background-image: radial-gradient(rgba(74, 16, 48, 0.08) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+.bg-grain-wine {
+  background-image: radial-gradient(rgba(245, 237, 224, 0.06) 1px, transparent 0);
+  background-size: 24px 24px;
+}

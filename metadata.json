@@ -1,0 +1,6 @@
+{
+  "name": "Gole de Poesia",
+  "description": "Landing page oficial do projeto cultural Gole de Poesia em Taguatinga - DF. Coletivo de oficinas literárias e artísticas voltado à cultura afro-brasileira, poesia, performance e escrita periférica.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
