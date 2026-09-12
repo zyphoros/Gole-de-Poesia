@@ -8,6 +8,7 @@ import { Header } from './components/Header';
 import { Hero } from './components/Hero';
 import { About } from './components/About';
 import { Workshops } from './components/Workshops';
+import { Schedule } from './components/Schedule';
 import { Footer } from './components/Footer';
 import { TornPaperEdge } from './components/TornPaperEdge';
 
@@ -24,17 +25,20 @@ export default function App() {
         {/* 3. OFICINAS GRATUITAS: 4 CARDS COM FACILITADORES E INSCRIÇÕES DIRETAS */}
         <Workshops />
 
-        {/* EFEITO DE PAPEL RASGADO: TRANSIÇÃO MOSTARDA -> VINHO */}
-        <TornPaperEdge fillColor="#E8A324" position="bottom" />
+        {/* 4. PROGRAMAÇÃO E CHAMAMENTO PÚBLICO: REGRAS, EDITAL DO SARAU E CRONOGRAMA */}
+        <Schedule />
 
-        {/* 4. SOBRE: O QUE É O GOLE DE POESIA, MANIFESTO E PILARES */}
+        {/* EFEITO DE PAPEL RASGADO: TRANSIÇÃO MOSTARDA -> VINHO */}
+        <TornPaperEdge fillColor="#E8A324" position="bottom" flipX={false} />
+
+        {/* 5. SOBRE: O QUE É O GOLE DE POESIA, MANIFESTO E PILARES */}
         <About />
 
         {/* EFEITO DE PAPEL RASGADO: TRANSIÇÃO VINHO -> VINHO ESCURO DO FOOTER */}
-        <TornPaperEdge fillColor="#4A1030" position="bottom" flipX={true} />
+        <TornPaperEdge fillColor="#4A1030" position="bottom" flipX={false} />
       </main>
 
-      {/* 5. FOOTER: FUNDO VINHO PROFUNDO COM INSTAGRAM, CONTATO E CRÉDITOS */}
+      {/* 6. FOOTER: FUNDO VINHO PROFUNDO COM INSTAGRAM, CONTATO E CRÉDITOS */}
       <Footer />
     </div>
   );

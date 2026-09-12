@@ -39,12 +39,18 @@ export const Header: React.FC = () => {
         </div>
 
         {/* NAVEGAÇÃO DESKTOP COM ÂNCORAS */}
-        <nav className="hidden md:flex items-center gap-6 lg:gap-8 font-body font-semibold text-sm">
+        <nav className="hidden md:flex items-center gap-5 lg:gap-7 font-body font-semibold text-sm">
           <a
             href="#oficinas"
             className="text-[#4A1030] hover:text-[#340720] transition-colors relative py-1 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-[#4A1030] hover:after:w-full after:transition-all"
           >
             Oficinas Gratuitas
+          </a>
+          <a
+            href="#programacao"
+            className="text-[#4A1030] hover:text-[#340720] transition-colors relative py-1 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-[#4A1030] hover:after:w-full after:transition-all"
+          >
+            Programação & Chamamento
           </a>
           <a
             href="#sobre"
@@ -93,6 +99,13 @@ export const Header: React.FC = () => {
             className="block py-2 text-lg font-display uppercase tracking-wider text-[#4A1030] border-b border-[#4A1030]/10"
           >
             Oficinas Gratuitas
+          </a>
+          <a
+            href="#programacao"
+            onClick={() => setMobileMenuOpen(false)}
+            className="block py-2 text-lg font-display uppercase tracking-wider text-[#4A1030] border-b border-[#4A1030]/10"
+          >
+            Programação & Chamamento
           </a>
           <a
             href="#sobre"
