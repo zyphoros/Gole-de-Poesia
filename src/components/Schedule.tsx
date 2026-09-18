@@ -273,10 +273,23 @@ export const Schedule: React.FC = () => {
                 <p className="font-body text-xs sm:text-sm text-[#F5EDE0]/85 max-w-2xl leading-relaxed">
                   Apresentação ao vivo dos poetas selecionados pelo chamamento público. Local: Mercado Sul Vive.
                 </p>
-                <div className="mt-4 flex items-center gap-3">
+                <div className="mt-4 flex flex-wrap items-center gap-3">
+                  <a
+                    id="btn-inscricoes-abertas-sarau"
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSc3rxfYwy8pQNiSQZrUGOmJDoMFwEMSeYlqtLKGJnfkMr5xAA/viewform?usp=publish-editor"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 font-display text-xs uppercase tracking-wider font-bold text-[#4A1030] bg-[#E8A324] hover:bg-[#FAF4EA] px-3.5 py-2 rounded-lg shadow hover:shadow-md transition-all transform hover:-translate-y-0.5 active:translate-y-0 group"
+                  >
+                    <Sparkles className="w-3.5 h-3.5 text-[#4A1030]" />
+                    <span>Inscrições Já Abertas</span>
+                    <ExternalLink className="w-3.5 h-3.5 opacity-80 group-hover:opacity-100 transition-opacity" />
+                  </a>
+
                   <button
+                    id="btn-ver-edital-chamamento"
                     onClick={() => setActiveTab('chamamento')}
-                    className="inline-flex items-center gap-2 font-display text-xs uppercase tracking-wider font-bold text-[#4A1030] bg-[#E8A324] hover:bg-[#FAF4EA] px-3.5 py-2 rounded-lg shadow transition-colors"
+                    className="inline-flex items-center gap-2 font-display text-xs uppercase tracking-wider font-bold text-[#F5EDE0] bg-[#FAF4EA]/15 hover:bg-[#FAF4EA]/25 border border-[#F5EDE0]/30 px-3.5 py-2 rounded-lg shadow transition-colors"
                   >
                     <span>Ver edital completo do chamamento</span>
                     <ArrowRight className="w-3.5 h-3.5" />
@@ -516,22 +529,37 @@ export const Schedule: React.FC = () => {
             <div className="mt-6 pt-4 border-t border-[#4A1030]/20 flex flex-col sm:flex-row items-center justify-between gap-3 bg-[#4A1030] text-[#F5EDE0] p-4 sm:p-5 rounded-xl border-2 border-[#340720]">
               <div>
                 <span className="font-display text-xs uppercase tracking-wider text-[#E8A324] font-bold block">
-                  Inscrições abertas até 25/09/2026, às 23h59
+                  Inscrições já abertas até 25/09/2026, às 23h59
                 </span>
                 <span className="font-body text-xs text-[#F5EDE0]/80">
-                  Dúvidas e envio de material podem ser consultados também no Instagram oficial.
+                  Preencha o formulário para enviar sua proposta artística ao Sarau.
                 </span>
               </div>
 
-              <a
-                href="https://www.instagram.com/goledepoesia.df/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-[#E8A324] hover:bg-[#FAF4EA] text-[#4A1030] px-4 py-2 rounded-lg font-display text-xs sm:text-sm tracking-wider uppercase font-bold flex items-center gap-2 shadow hover:shadow-md transition-all shrink-0"
-              >
-                <span>Acompanhar no Instagram</span>
-                <ExternalLink className="w-3.5 h-3.5 text-[#4A1030]" />
-              </a>
+              <div className="flex flex-wrap items-center gap-2.5 shrink-0">
+                <a
+                  id="btn-inscricao-sarau-form-cta"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSc3rxfYwy8pQNiSQZrUGOmJDoMFwEMSeYlqtLKGJnfkMr5xAA/viewform?usp=publish-editor"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-[#E8A324] hover:bg-[#FAF4EA] text-[#4A1030] px-4 py-2 rounded-lg font-display text-xs sm:text-sm tracking-wider uppercase font-bold flex items-center gap-2 shadow hover:shadow-md transition-all shrink-0 group"
+                >
+                  <Sparkles className="w-3.5 h-3.5 text-[#4A1030]" />
+                  <span>Inscrições Já Abertas</span>
+                  <ExternalLink className="w-3.5 h-3.5 opacity-80 group-hover:opacity-100 transition-opacity" />
+                </a>
+
+                <a
+                  id="btn-sarau-instagram-cta"
+                  href="https://www.instagram.com/goledepoesia.df/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-[#FAF4EA]/15 hover:bg-[#FAF4EA]/25 text-[#F5EDE0] border border-[#F5EDE0]/30 px-3.5 py-2 rounded-lg font-display text-xs sm:text-sm tracking-wider uppercase font-bold flex items-center gap-1.5 shadow transition-all shrink-0"
+                >
+                  <span>Instagram</span>
+                  <ExternalLink className="w-3 h-3 text-[#E8A324]" />
+                </a>
+              </div>
             </div>
 
           </div>
